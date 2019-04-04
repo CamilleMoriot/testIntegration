@@ -14,5 +14,8 @@ cache:
   directories:
   - $HOME/Bureau/MGL/Unit\ testing/gradle/
 
+before_install:
+ - chmod +x gradlew
+
 script:
   - ./gradlew build test
