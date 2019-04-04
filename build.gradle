@@ -1,0 +1,24 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+
+jacoco {
+    toolVersion = "0.8.3"
+    reportsDir = file("/home/cmoriot/4A/MGL/build/reports/tests/Jacoco")
+}
+
+jacocoTestReport {
+    reports {
+        xml.enabled false
+        csv.enabled false
+        html.destination file("/home/cmoriot/4A/MGL/build/reports/testDir/jacocoHtml")
+    }
+}
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  testCompile 'junit:junit:4.12'
+  testCompile 'org.assertj:assertj-core:3.0.0'
+}

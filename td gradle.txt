@@ -1,0 +1,17 @@
+Comment construire un projet ?
+
+--> ./gradlew build
+
+Comment générer de la javadoc ?
+
+--> ./gradlew javadoc
+
+Comment lancer des tests ?
+
+--> ./gradlew test
+
+
+
+rapport de test : 
+
+file:///home/cmoriot/4A/MGL/build/reports/tests/index.html
