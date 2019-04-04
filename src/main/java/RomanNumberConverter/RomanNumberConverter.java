@@ -52,10 +52,4 @@ public class RomanNumberConverter {
     }
     return resultat.toString();
   }
-
-
-  public static void main(String[] args){
-    system.out.println("1 : "+convert(1));
-    system.out.println("X : "+ convert("X"));
-  }
 }
